@@ -1,0 +1,42 @@
+{
+  "name": "Headphone",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241201172128",
+  "not-first-run": true,
+  "function": {
+    "id": 33101,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31836,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 191450
+  },
+  "application": {
+    "id": 1733071251,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1733076973,
+    "name": "Headphone",
+    "domain_name": "rifv8ng1yz.map.azionedge.net",
+    "url": "https://rifv8ng1yz.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 329091,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
